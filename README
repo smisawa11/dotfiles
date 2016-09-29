@@ -1,0 +1,5 @@
+やること
+bashならzsh切り替え
+chsh -s {zsh-path}
+  -> /etc/shells確認
+peco インストール
