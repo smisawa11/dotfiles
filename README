@@ -2,4 +2,14 @@
 bashならzsh切り替え
 chsh -s {zsh-path}
   -> /etc/shells確認
+
+```
+$ cd ~/dotfiles
+$ git pull
+$ git submodule init
+$ git submodule update
+$ init.sh
+$ source ~/.zshrc
+```
+
 peco インストール
