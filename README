@@ -1,8 +1,3 @@
-やること
-bashならzsh切り替え
-chsh -s {zsh-path}
-  -> /etc/shells確認
-
 ```
 $ cd ~/dotfiles
 $ git pull
@@ -10,6 +5,14 @@ $ git submodule init
 $ git submodule update
 $ init.sh
 $ source ~/.zshrc
+$ source ~/.vimrc
 ```
 
-peco インストール
+やること
+bashならzsh切り替え
+#zsh install
+sudo yum install zsh
+# zshに切り替え
+sudo chsh {user-name} -s {zsh_path}
+# chsh -s {zsh_path}
+#   -> /etc/shells確認 おそらく /bin/zsh
