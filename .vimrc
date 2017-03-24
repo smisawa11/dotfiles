@@ -1,23 +1,13 @@
-" なんだっけこれ
-" if has('vim_starting')
-"     set runtimepath+=~/.vim/bundle/neobundle.vim
-"     call neobundle#rc(expand('~/.vim/bundle'))
-" endif
-"
-" NeoBundle 'https://github.com/Shougo/neobundle.vim.git'
-" NeoBundle 'https://github.com/editorconfig/editorconfig-vim.git'
-"set noexpandtab
 set tabstop=2
 set shiftwidth=2
 set softtabstop=0
 set autoindent
 set nocompatible
 set expandtab
-retab
 
 if has('vim_starting')
-    set runtimepath+=~/.vim/bundle/neobundle.vim
-    call neobundle#begin(expand('~/.vim/bundle/'))
+    set runtimepath+=$HOME/.vim/bundle/neobundle.vim
+    call neobundle#begin(expand($HOME.'/.vim/bundle/'))
     NeoBundleFetch 'Shougo/neobundle.vim'
     NeoBundle 'https://github.com/Shougo/neobundle.vim.git'
     NeoBundle 'https://github.com/editorconfig/editorconfig-vim.git'
