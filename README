@@ -1,11 +1,11 @@
 ```
+$ sudo yum install zsh
+$ sudo chsh ec2-user -s /bin/zsh
 $ cd ~/dotfiles
 $ git pull
 $ git submodule init
 $ git submodule update
 $ init.sh
-$ source ~/.zshrc
-$ source ~/.vimrc
 ```
 
 やること

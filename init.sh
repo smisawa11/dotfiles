@@ -5,7 +5,10 @@ rm -r ~/.vim
 ln -s ~/dotfiles/.vim ~/.vim
 
 #peco install
-cd
+cd ~/dotfiles/
 wget https://github.com/peco/peco/releases/download/v0.2.0/peco_linux_amd64.tar.gz
 tar xfvz peco_linux_amd64.tar.gz
 sudo cp peco_linux_amd64/peco /usr/local/bin
+
+source ~/.zshrc
+source ~/.vimrc
